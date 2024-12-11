@@ -1,0 +1,39 @@
+.box {
+    height: 30%;
+    width: 30%;
+    background-color: #FFF5E4;
+    margin: 5px;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    background-color: yellow;
+    transition: background-color 0.3s ease;
+}
+
+#message {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.container {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.outer {
+    height: 500px;
+    width: 500px;
+    background-color: #7695FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
